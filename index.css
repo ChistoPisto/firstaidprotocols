@@ -1,0 +1,451 @@
+/* Welcome to the jungle */
+/* Ctrl + F is your bestfriend here*/ 
+/* Don't get lost*/
+
+
+@font-face {
+  font-family:"Lexend";
+  src: url("Font/Lexend-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("Font/Jost-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "JostR";
+  src: url("Font/Jost-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "JostL";
+  src: url("Font/Jost-Light.ttf");
+}
+
+@font-face {
+  font-family: "LexendL";
+  src: url("Font/Lexend-Light.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior:smooth; 
+}
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+}
+
+#FAimg{
+  width: 45px;
+  height: 45px;
+}
+
+#ADimg{
+  width: 33px;
+  height: 20px;
+}
+
+.navbar {
+  background-color: #ffffff;
+  height: 80px;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.10);
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 80px;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+
+.logo {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  float: left;
+  justify-content: space-around;
+  font-family: Lexend;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.logo a{
+  text-decoration: none;
+  color: #EF4D5C
+}
+
+#logotext{
+  align-content: center;
+  margin-left: 10px;
+  color: rgb(108, 108, 108);
+}
+
+.sepbox{
+  display:flex;
+  float: right;
+  flex-direction:row-reverse;
+}
+
+.seperationblock{
+  width: 4px;
+  height: 48px;
+  background-color: rgb(239, 239, 239);
+  margin-top: 15px;
+}
+
+#red{
+  color: #ef6673
+}
+
+.options {
+  display: flex;
+  float: right;
+  justify-content: center;
+  font-family: Lexend;
+  width: 240px;
+  font-size: 15px;
+  padding: 30px 20px;
+} 
+
+.options a{
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+}
+
+.pagecontent{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  height: 350px;
+  justify-content: space-around;
+  margin-top: 190px;
+}
+
+.parafirst{
+  background-color: rgb(255, 255, 255);
+  float: left;
+  display: flex;
+  flex-direction: column;
+  margin-right: 240px;
+  margin-top: 27px;
+}
+
+.introwhy{
+ font-family: Lexend;
+ font-size: 45px;
+ color: rgb(107, 107, 107);
+ margin-bottom: 10px;
+}
+
+.intro{
+  font-family: Jost;
+  font-size: 22px;
+  color: rgb(80, 80, 80);
+  margin-left: 5px;
+}
+
+.discover{
+  color: rgb(107, 107, 107);
+  font-family: JostL;
+  font-size: 17px;
+  margin-left: 5px;
+  margin-top: 10px;
+  line-height: 22px;
+}
+
+.box{
+  border-radius: 15.3px;
+  background: #d8fffc;
+  box-shadow: -1.52998px -1.52998px 13px 0px rgba(0, 0, 0, 0.06), 1.52998px 1.52998px 13px 0px rgba(0, 0, 0, 0.06);
+  width: 325px;
+  height: 270px;
+  margin-right: 30px;
+}
+
+.boxheader{
+ font-family: Lexend;
+ font-size: 21px;
+ color: rgb(121, 121, 121);
+ text-align: center;
+ padding-top: 32px;
+}
+
+.boxcontent{
+  font-family: JostR;
+  font-size: 18px;
+  color: rgb(135, 135, 135);
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 98px;
+  line-height: 32px;
+}
+
+a#selected{
+  color: #EF4D5C;
+}
+
+li{
+  color: rgb(68, 68, 68);
+  font-family: JostR;
+  margin-left: 45px;
+}
+
+.infocontent{
+  margin-left: 45px;
+  margin-top: 130px;
+}
+
+#infoheader{
+  font-family: Lexend;
+  font-size: 23px;
+  color: rgb(107, 107, 107);
+  padding-bottom: 7px;
+}
+
+.infotext{
+  font-family: JostR;
+  margin-left: 20px;
+  color: rgb(68, 68, 68);
+}
+
+.arrowdown{
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+
+.Intropoints{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  margin-left: 40px;
+}
+
+#introheader{
+  font-family: Lexend;
+  color: rgb(99, 99, 99);
+  font-size: 35px;
+  padding-left: 16px;
+  padding-bottom: 10px;
+  offset-anchor:initial;
+}
+
+.infotextage{
+  font-family: JostR;
+  margin-left: 50px;
+  color: rgb(68, 68, 68);
+}
+
+#anchorbone{
+  margin-top: 90px;
+  margin-bottom: 90px;
+  border-top: 2px solid;
+  color: rgb(255, 255, 255);
+}
+
+b{
+  color: rgb(93, 93, 93);
+}
+
+a.hover-effect {
+  color: #626262; 
+  text-decoration: none; 
+  transition: color 0.3s; 
+}
+
+a.hover-effect:hover {
+  color: #EF4D5C; /* text color change on hover */
+}
+
+#videofeel{
+  text-align: center;
+}
+
+#Frame2{
+  height: 265px;
+}
+
+#choking{
+  display: flex;
+  margin-bottom: 90px;
+}
+
+#chokingimg{
+  padding-left: 160px;
+  padding-top: 20px;
+}
+
+#chokingtext{
+  margin-top: 35px;
+}
+
+#severechoking{
+  display: flex;
+  margin-bottom: 90px;
+}
+
+#sevchokingimg{
+  padding-left: 90px;
+  padding-top: 120px;
+}
+
+#allergy{
+  margin-bottom: 90px;
+}
+
+#bleedimgedit{
+  width: 420px;
+  height: 280px;
+  padding-left: 50px;
+}
+
+#bleeding{
+  display: flex;
+  margin-bottom: 90px;
+}
+
+#bleedimg{
+  padding-top: 90px;
+  padding-left: 90px;
+}
+
+#heart{
+  width: 360px;
+  height: 270px;
+}
+
+#heartattackimg{
+  padding-left: 150px;
+  padding-top: 90px;
+}
+
+#heartattack{
+  display: flex;
+  margin-bottom: 90px;
+}
+
+#burnscald{
+  display: flex;
+  margin-bottom: 90px;
+}
+
+#burnimg{
+  padding-left: 180px;
+  padding-top: 35px;
+}
+
+#burnimgedit{
+  width: 300px;
+  height: 230px;
+}
+
+#footer{
+background: #fff;
+box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+padding: 30px 0;
+color: #222222;
+font-size: 14px
+}
+
+.footercontainer{
+  font-family: JostR;
+  text-align: center;
+  font-size: medium;
+  color: #808080;
+}
+
+#footerka{
+  margin-top: 150px;
+}
+
+#fracture{
+  display: flex;
+  margin-bottom: 90px;
+}
+
+#fractureimgedit{
+  width: 375px;
+  height: 270px;
+}
+
+#fractureimg{
+  padding-left: 80px;
+  padding-top: 50px;
+}
+
+#shock{
+  display: flex;
+  margin-bottom: 90px;
+}
+
+#shockimg{
+  padding-left: 100px;
+  padding-top: 200px;
+}
+
+#shockimgedit{
+  width: 340px;
+  height: 240px;
+}
+
+#electricshock{
+  margin-bottom: 90px;
+}
+
+#drowing{
+  margin-bottom: 90px;
+}
+
+#poisoning{
+  margin-bottom: 90px;
+}
+
+#drowning{
+  display: flex;
+  margin-bottom: 90px;
+}
+
+#drowningimg{
+  padding-left: 190px;
+  padding-top: 20px;
+}
+
+#drowningimgedit{
+  width: 280px;
+  height: 180px;
+}
+
+#electricshock{
+  display: flex;
+}
+
+#eshockimgedit{
+  width: 300px;
+  height: 270px;
+}
+
+#eshockimg{
+  padding-left: 240px;
+}
+
+#eshocktext{
+  padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
